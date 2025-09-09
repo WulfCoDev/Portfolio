@@ -16,7 +16,8 @@ export default function Home() {
           View Projects
         </a>
         <a
-          href="/resume.pdf"
+          href="/Christian_Alexander_IT_Resume.pdf"
+          download={true}
           className="px-6 py-3 border border-blue-600 rounded-lg hover:bg-blue-50"
         >
           Download Resume
