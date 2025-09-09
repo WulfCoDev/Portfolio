@@ -18,7 +18,7 @@ export default function Certifications() {
           {certifications.map((cert) => (
             <div
               key={cert.name}
-              className="bg-white shadow rounded-2xl p-6 hover:shadow-lg transition"
+              className="bg-white shadow shadow-[#2B2D42] rounded-2xl p-6 hover:shadow-lg transition"
             >
               <h3 className="text-xl font-semibold mb-2">{cert.name}</h3>
               <p className="text-secondary">Year: {cert.year}</p>

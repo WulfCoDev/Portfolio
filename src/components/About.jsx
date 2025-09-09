@@ -10,8 +10,9 @@ export default function About() {
           with creativity. Outside of tech, I’m passionate about gaming, movies,
           and motorsports. Currently, I’m working towards Associates of Science
           degrees in Computer Science and Physics with a transfer goal to UC
-          Riverside in 2027. Furthermore, I am seeking entry-level IT or
-          software engineering roles.
+          Riverside in 2027 to obtain my Bachelors then Masters degree.
+          Furthermore, I am seeking entry-level IT or software engineering
+          roles.
         </p>
       </div>
     </section>

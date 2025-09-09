@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gray-100">
+    <section id="contact" className="py-20 bg-[#EDF2F4]">
       <div className="max-w-3xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
         <p className="text-gray-700 mb-8">
@@ -10,28 +10,31 @@ export default function Contact() {
         <div className="space-y-4">
           <p>
             Email:{" "}
-            <a href="mailto:youremail@example.com" className="text-blue-600">
-              youremail@example.com
+            <a
+              href="mailto:Christian.Alexander.Dev@gmail.com"
+              className="text-blue-600"
+            >
+              Christian.Alexander.Dev@gmail.com
             </a>
           </p>
           <p>
             LinkedIn:{" "}
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/dev-christian-alexander/"
               target="_blank"
               className="text-blue-600"
             >
-              linkedin.com/in/yourprofile
+              linkedin.com/in/dev-christian-alexander
             </a>
           </p>
           <p>
             GitHub:{" "}
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/WulfCoDev"
               target="_blank"
               className="text-blue-600"
             >
-              github.com/yourgithub
+              github.com/WulfCoDev
             </a>
           </p>
         </div>

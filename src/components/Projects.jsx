@@ -3,7 +3,7 @@ const projects = [
     title: "Movie Catalog Management System (C++)",
     description:
       "Console-based system with file I/O, hash maps, and interactive menus.",
-    link: "https://github.com/yourgithub/movie-catalog",
+    link: "https://github.com/WulfCoDev/MovieCatalogSystem",
   },
   {
     title: "Real Estate Website (React + Vite)",
