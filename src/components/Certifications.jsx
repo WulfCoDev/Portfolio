@@ -9,16 +9,16 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-20 min-h-screen">
+    <section id="certifications" className="py-20 min-h-screen bg-[#003DA5]">
       <div className="max-w-5xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-10 text-primary">
+        <h2 className="text-3xl font-bold mb-10 text-[#FFB81C]">
           Certifications
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {certifications.map((cert) => (
             <div
               key={cert.name}
-              className="bg-white shadow shadow-[#2B2D42] rounded-2xl p-6 hover:shadow-lg transition"
+              className="bg-white shadow-lg shadow-[#ffb81c] rounded-2xl p-6 hover:shadow-xl transition"
             >
               <h3 className="text-xl font-semibold mb-2">{cert.name}</h3>
               <p className="text-secondary">Year: {cert.year}</p>
