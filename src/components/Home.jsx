@@ -2,10 +2,10 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-[#8D99AE] text-[#2B2D42]"
+      className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-[url(/hero-bg3.jpg)] bg-cover bg-no-repeat text-[#EDF2F4]"
     >
       <h1 className="text-5xl font-bold mb-4">Hi, I’m Christian Alexander</h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-[#EDF2F4] mb-6">
         IT Specialist & Aspiring Software Engineer | CompTIA Triad Certified
       </p>
       <div className="space-x-4">

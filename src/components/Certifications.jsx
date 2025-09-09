@@ -9,7 +9,7 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-20 bg-light">
+    <section id="certifications" className="py-20 min-h-screen">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold mb-10 text-primary">
           Certifications

@@ -9,7 +9,7 @@ import Certifications from "./components/Certifications";
 
 function App() {
   return (
-    <div className="font-sans bg-[#EDF2F4] text-gray-900">
+    <div className="font-sans bg-[#001147] text-gray-900">
       <Navbar />
       <main>
         <Home />
