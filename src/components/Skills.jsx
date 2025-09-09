@@ -1,12 +1,7 @@
 const skills = {
-  Languages: ["C++", "JavaScript", "Python"],
+  Languages: ["C++", "JavaScript", "Python", "HTML", "CSS"],
   "Frameworks & Tools": ["React", "Vite", "Tailwind CSS", "Proxmox", "Git"],
-  Certifications: [
-    "CompTIA ITF+",
-    "CompTIA A+",
-    "CompTIA Security+",
-    "Network+ (in progress)",
-  ],
+  "Operating Systems": ["Windows", "Linux (Ubuntu, Kali)", "macOS"],
   "Soft Skills": [
     "Troubleshooting",
     "Customer Support",

@@ -5,11 +5,13 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p className="text-gray-700 leading-relaxed">
           I’m an IT and software enthusiast with a background in Computer
-          Science and Physics. I hold multiple CompTIA certifications and enjoy
-          building projects that combine problem-solving with creativity.
-          Outside of tech, I’m passionate about gaming, movies, and digital art.
-          Currently, I’m working towards my Network+ certification and seeking
-          entry-level IT or software engineering roles.
+          Science and Physics. I hold the CompTIA triad (A+, Network+,
+          Security+) and enjoy building projects that combine problem-solving
+          with creativity. Outside of tech, I’m passionate about gaming, movies,
+          and motorsports. Currently, I’m working towards Associates of Science
+          degrees in Computer Science and Physics with a transfer goal to UC
+          Riverside in 2027. Furthermore, I am seeking entry-level IT or
+          software engineering roles.
         </p>
       </div>
     </section>
