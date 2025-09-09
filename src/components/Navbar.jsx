@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#2B2D42] shadow z-50 text-[#EDF2F4]">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold">Christian Alexander</h1>
+        <h1 className="text-xl font-bold">
+          <a href="/">Christian Alexander</a>
+        </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
