@@ -1,6 +1,11 @@
+import LogoCarousel from "./LogoCarousel";
+
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-linear-to-t from-[#FFB81C] to-[#003DA5] min-h-screen">
+    <section
+      id="about"
+      className="py-20 bg-linear-to-t from-[#FFB81C] to-[#003DA5] min-h-screen"
+    >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 text-[#edf2f4]">About Me</h2>
         <p className="text-[#EDF2F4] leading-relaxed text-3xl">
@@ -14,6 +19,7 @@ export default function About() {
           Furthermore, I am seeking entry-level IT or software engineering
           roles.
         </p>
+        <LogoCarousel />
       </div>
     </section>
   );
