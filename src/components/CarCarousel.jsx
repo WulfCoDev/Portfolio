@@ -21,7 +21,7 @@ export default function CarCarousel() {
     const step = () => {
       if (!container) return;
 
-      scrollAmount -= 0.3; // move right
+      scrollAmount -= 0.5; // move right
       if (scrollAmount <= 0) {
         scrollAmount = container.scrollWidth / 2; // reset seamlessly
       }

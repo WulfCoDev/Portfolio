@@ -21,7 +21,7 @@ export default function LogoCarousel() {
 
     const step = () => {
       if (!container) return;
-      scrollAmount += 0.3; // Adjust speed here (pixels per frame)
+      scrollAmount += 0.5; // Adjust speed here (pixels per frame)
       if (scrollAmount >= container.scrollWidth / 2) scrollAmount = 0;
       container.scrollLeft = scrollAmount;
       requestAnimationFrame(step);
