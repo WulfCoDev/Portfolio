@@ -7,8 +7,9 @@ const logos = [
   "/IMSALogo.svg",
   "/PhysicsLogo.png",
   "/UCRLogo.png",
-  "/HotWheelsLogo.png",
-  "/SteamLogo.png"
+  "/HotWheelsLogo.jpg",
+  "/SteamLogo.png",
+  "/iRacingLogo.png",
 ];
 
 export default function LogoCarousel() {
