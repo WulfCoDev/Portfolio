@@ -34,7 +34,7 @@ export default function LogoCarousel() {
 
   return (
     <div
-      className="overflow-hidden py-12 lg:py-24 "
+      className="overflow-hidden py-12 lg:pt-24 "
       ref={containerRef}
     >
       <div className="flex gap-10">

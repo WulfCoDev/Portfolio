@@ -37,7 +37,7 @@ export default function CarCarousel() {
 
   return (
     <div
-      className="overflow-hidden py-12 lg:py-24"
+      className="overflow-hidden"
       ref={containerRef}
     >
       <div className="flex gap-10">
