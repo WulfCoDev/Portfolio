@@ -7,34 +7,39 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#2B2D42] shadow z-50 text-[#EDF2F4]">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold">
+        <h1 className="text-xl font-bold hover:text-[#ffb81c]">
           <a href="/">Christian Alexander</a>
         </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <a href="#home" className="hover:text-blue-600">
+            <a href="#home" className="hover:text-[#ffb81c]">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-600">
+            <a href="#about" className="hover:text-[#ffb81c]">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-blue-600">
+            <a href="#skills" className="hover:text-[#ffb81c]">
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-blue-600">
+            <a href="#certifications" className="hover:text-[#ffb81c]">
+              Certifications
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="hover:text-[#ffb81c]">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-600">
+            <a href="#contact" className="hover:text-[#ffb81c]">
               Contact
             </a>
           </li>

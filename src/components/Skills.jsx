@@ -1,12 +1,38 @@
 const skills = {
   Languages: ["C++", "JavaScript", "Python", "HTML", "CSS"],
-  "Frameworks & Tools": ["React", "Vite", "Tailwind CSS", "Proxmox", "Git"],
+  "Frameworks & Tools": ["React", "Vite", "Wasp", "Tailwind CSS", "Proxmox", "Git"],
   "Operating Systems": ["Windows", "Linux (Ubuntu, Kali)", "macOS"],
+  "Technical Support" : [
+    "Hardware Troubleshooting",
+    "Software Installation & Configuration",
+    "Network Setup & Maintenance",
+    "Virus Removal & System Optimization",
+    "System Imaging & Deployment",
+  ],
+  "Systems & Networking": [
+    "Network Configuration",
+    "Firewall Management",
+    "Virtualization",
+    "System Monitoring & Maintenance",
+    "Active Directory",
+    "DHCP",
+    "DNS",
+    "VPN",
+    "TCP/IP",
+    "Subnetting",
+    "Routing & Switching",
+  ],
   "Soft Skills": [
     "Troubleshooting",
     "Customer Support",
     "Adaptability",
     "Problem-Solving",
+    "Communication",
+    "Team Collaboration",
+    "Time Management",
+    "Attention to Detail",
+    "Critical Thinking",
+    "Conflict Resolution",
   ],
 };
 
@@ -21,7 +47,7 @@ export default function Skills() {
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}
-              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-[#003da5]"
             >
               <h3 className="text-xl font-semibold mb-4">{category}</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
