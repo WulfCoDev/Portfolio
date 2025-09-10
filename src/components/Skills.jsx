@@ -47,7 +47,7 @@ export default function Skills() {
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}
-              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-[#003da5] delay-150 ease-in-out hover:-translate-y-1 hover:scale-110"
+              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition duration-300 border-2 border-[#003da5] delay-150 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
               <h3 className="text-xl font-semibold mb-4">{category}</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2 text-md">
