@@ -1,4 +1,5 @@
 import LogoCarousel from "./LogoCarousel";
+import CarCarousel from "./CarCarousel";
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
           roles.
         </p>
         <LogoCarousel />
+        <CarCarousel />
       </div>
     </section>
   );
