@@ -9,7 +9,7 @@ export default function About() {
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 text-[#edf2f4]">About Me</h2>
-        <p className="text-[#EDF2F4] leading-relaxed text-3xl md:text-xl sm:text-sm">
+        <p className="text-[#EDF2F4] leading-relaxed text-3xl md:text-md sm:text-sm">
           I’m an IT and software enthusiast with a background in Computer
           Science and Physics. I hold the CompTIA triad (A+, Network+,
           Security+) and enjoy building projects that combine problem-solving
