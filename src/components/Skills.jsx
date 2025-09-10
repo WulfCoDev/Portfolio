@@ -40,17 +40,17 @@ export default function Skills() {
   return (
     <section id="skills" className="py-20 bg-[#ffb81c] min-h-screen">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-10 text-[#003da5]">
+        <h2 className="text-4xl font-bold text-center mb-10 text-[#003da5]">
           Skills
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {Object.entries(skills).map(([category, items]) => (
             <div
               key={category}
-              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-[#003da5]"
+              className="bg-white rounded-2xl p-6 shadow-[#003da5] shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-[#003da5] delay-150 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
               <h3 className="text-xl font-semibold mb-4">{category}</h3>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <ul className="list-disc list-inside text-gray-700 space-y-2 text-md">
                 {items.map((skill) => (
                   <li key={skill}>{skill}</li>
                 ))}

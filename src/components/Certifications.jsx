@@ -19,7 +19,7 @@ export default function Certifications() {
           {certifications.map((cert) => (
             <div
               key={cert.name}
-              className="bg-white shadow-lg shadow-[#ffb81c] rounded-2xl p-6 hover:shadow-xl transition"
+              className="bg-white shadow-lg shadow-[#ffb81c] rounded-2xl p-6 hover:shadow-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
               <h3 className="text-xl font-semibold mb-2">{cert.name}</h3>
               <img
