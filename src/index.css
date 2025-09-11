@@ -4,3 +4,9 @@ html {
   scroll-behavior: smooth;
 }
 
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 2px #003da5; /* outline width + color */
+    color: #ffb81c; /* fill color */
+  }
+}
