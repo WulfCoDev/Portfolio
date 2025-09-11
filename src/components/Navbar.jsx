@@ -33,11 +33,13 @@ export default function Navbar() {
               Certifications
             </a>
           </li>
+          {/*
           <li>
             <a href="#projects" className="hover:text-[#ffb81c]">
               Projects
             </a>
           </li>
+          */}
           <li>
             <a href="#contact" className="hover:text-[#ffb81c]">
               Contact
