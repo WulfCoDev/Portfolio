@@ -4,7 +4,7 @@ export default function Home() {
       id="home"
       className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-[url(/hero-bg3.jpg)] bg-cover bg-no-repeat text-[#EDF2F4]"
     >
-      <h1 className="text-5xl md:text-6xl font-bold mb-4">Hi, I’m Christian Alexander</h1>
+      <h1 className="text-5xl md:text-6xl font-bold mb-4">Welcome, <br/> I’m Christian Alexander</h1>
       <p className="text-lg md:text-xl text-[#EDF2F4] mb-6">
         IT Specialist & Aspiring Software Engineer | CompTIA Triad Certified
       </p>
