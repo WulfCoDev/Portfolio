@@ -1,24 +1,26 @@
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-[#EDF2F4] min-h-screen">
-      <div className="max-w-3xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-        <p className="text-gray-700 mb-8">
-          Feel free to reach out for collaboration, opportunities, or just to
-          say hi!
+    <section id="contact" className="py-20 bg-linear-to-b from-[#FFB81C] to-[#003DA5] min-h-screen flex flex-col justify-center items-center">
+      <div className="max-w-3xl mx-auto px-6 text-center ">
+        <h2 className="text-6xl font-bold mb-6">Get in Touch</h2>
+        <p className="text-gray-700 mb-8 text-2xl">
+          Feel free to reach out for collaborations, questions, or opportunities!
         </p>
-        <div className="space-y-4">
-          <p>
-            Email:{" "}
+        <div className="space-y-4 text-xl" >
+          <div className="flex items-center justify-center space-x-2">
+            <MdEmail />
             <a
               href="mailto:Christian.Alexander.Dev@gmail.com"
               className="text-blue-600"
             >
               Christian.Alexander.Dev@gmail.com
             </a>
-          </p>
-          <p>
-            LinkedIn:{" "}
+          </div>
+          <div className="flex items-center justify-center space-x-2">
+            <FaLinkedin />
             <a
               href="https://www.linkedin.com/in/dev-christian-alexander/"
               target="_blank"
@@ -26,9 +28,9 @@ export default function Contact() {
             >
               linkedin.com/in/dev-christian-alexander
             </a>
-          </p>
-          <p>
-            GitHub:{" "}
+          </div>
+          <div className="flex items-center justify-center space-x-2">
+            <FaGithub />
             <a
               href="https://github.com/WulfCoDev"
               target="_blank"
@@ -36,7 +38,7 @@ export default function Contact() {
             >
               github.com/WulfCoDev
             </a>
-          </p>
+          </div>
         </div>
       </div>
     </section>
