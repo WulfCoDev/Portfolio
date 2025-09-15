@@ -9,12 +9,14 @@ export default function Home() {
         IT Specialist & Aspiring Software Engineer | CompTIA Triad Certified
       </p>
       <div className="space-x-4">
+        {/*
         <a
           href="#projects"
           className="px-6 py-3 bg-blue-600 hover:bg-[#ffb81c] text-white rounded-lg shadow "
         >
           View Projects
         </a>
+        */}
         <a
           href="/Christian_Alexander_IT_Resume.pdf"
           download={true}
