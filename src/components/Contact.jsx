@@ -11,6 +11,7 @@ export default function Contact() {
         </p>
         <div className="space-y-4 text-xl" >
           <div className="flex items-center justify-center space-x-2">
+             {/*
             <MdEmail />
             <a
               href="mailto:Christian.Alexander.Dev@gmail.com"
@@ -19,6 +20,7 @@ export default function Contact() {
               christian.alexander.dev@gmail.com
             </a>
           </div>
+          */}
           <div className="flex items-center justify-center space-x-2">
             <FaLinkedin />
             <a
