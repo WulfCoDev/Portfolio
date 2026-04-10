@@ -14,8 +14,8 @@ export default function About() {
           Science and Physics. I hold the CompTIA triad (A+, Network+,
           Security+) and enjoy building projects that combine problem-solving
           with creativity. Outside of tech, I’m passionate about gaming, movies,
-          and motorsports. Currently, I’m working towards an Associates of Science
-          degree in Computer Science with a transfer goal of Fall 2026 to WGU to obtain my Bachelors in Network and Cloud Engineering.
+          and motorsports. Currently, I’m graduating with an Associates of Science
+          degree in Computer Science from Crafton Hills College this May 2026 and will start at WGU in August to obtain my Bachelors in Network and Cloud Engineering.
         </p>
         <LogoCarousel />
         <CarCarousel />
