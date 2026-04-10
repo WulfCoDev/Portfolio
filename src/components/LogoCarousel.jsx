@@ -6,7 +6,7 @@ const logos = [
   "/CSLogo.png",
   "/IMSALogo.svg",
   "/PhysicsLogo.png",
-  "/UCRLogo.png",
+  "/wgu.png",
   "/HotWheelsLogo.png",
   "/SteamLogo.png",
   "/iRacingLogo.png",
